@@ -1,0 +1,14 @@
+DROP VIEW rentPrice;
+DROP VIEW emptyAppt;
+DROP VIEW apptAmt;
+DROP VIEW featFreq;
+DROP TABLE newBuilding;
+DROP TABLE renBuilding;
+DROP TABLE lease;
+DROP TABLE tenReferences;
+DROP TABLE features;
+DROP TABLE tennets;
+DROP TABLE inspection;
+DROP TABLE apartment;
+DROP TABLE floorPlan;
+DROP TABLE buildings;

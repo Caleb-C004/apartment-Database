@@ -1,0 +1,2 @@
+SELECT aptNum, direction, nickname, CAST(MOD(aptNum / 100, 10) AS INT) floorNum, rentPrice, bathColor, carColor carpetColor, kitAppColor
+FROM buildings NATURAL JOIN apartment NATURAL JOIN emptyAppt NATURAL JOIN rentPrice;
